@@ -1,0 +1,258 @@
+.overlay {
+  height: 10%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #808080;
+}
+
+.overlay-content {
+  position: relative;
+  top: 36%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input::placeholder{
+  color: white;
+}
+.overlay input[type=text] {
+  display: block;
+  width: 50%;
+  height: 20px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: white;
+  background-color: #808080;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  margin: 5px auto 20px;
+}
+
+/* cart */
+.cartoverlay {
+  height: 15%;
+  width: 25%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 20%;
+  right: 4%;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.cartoverlay-content {
+  position: relative;
+  top: 16%;
+  text-align: left;
+  margin: auto;
+}
+.cartoverlay-content p{
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+.cart a{
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.cart a:hover{
+  background-color: black;
+  color: white; 
+}
+
+
+/* style */
+.styleoverlay, .productoverlay, .shopoverlay, .lookbookoverlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255,255,255);
+  background-color: rgba(255,255,255, 0.9);
+}
+
+.styleoverlay-content, .productoverlay-content, .shopoverlay-content, .lookbookoverlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.styleoverlay .closebtn, .productoverlay .closebtn, .shopoverlay .closebtn, .lookbookoverlay .closebtn{
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 50px;
+  cursor: pointer;
+  color: #FBC500;
+}
+
+
+
+.msidebaroverlay{
+  height: 100%;
+  width: 90%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255,255,255);
+}
+
+.msidebaroverlay-content {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.msidebaroverlay-content li{
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: black;
+  border-bottom: 1px solid #e5e5e5;
+  list-style-type: none;
+  margin: -1px 0 0 0;
+  padding: 12px 20px;
+}
+
+.msidebaroverlay-content li a{
+  color: black;
+  text-decoration: none;
+}
+
+.msidebaroverlay .closebtn{
+  position: absolute;
+  border: 1px solid #FFC800;
+  padding: 2px;
+  width: 40px;
+  height: 50px;
+  background-color: #FFC800;
+  top: -11px;
+  right: -7.2%;
+  font-size: 50px;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+
+
+.useroverlay{
+  height: 23%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 16%;
+  left: 0;
+  background-color: rgb(255,255,255);
+}
+
+.useroverlay-content {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.useroverlay-content li{
+  display: block;
+  font-size: 12px;
+  color: black;
+  list-style-type: none;
+  margin: -1px 0 0 0;
+  padding: 12px 20px;
+}
+
+.useroverlay-content li a{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+
+.mcartoverlay{
+  height: 23%;
+  width: 70%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 16%;
+  right: 0;
+  background-color: rgb(255,255,255);
+}
+
+.mcartoverlay-content {
+  position: relative;
+  /* text-align: left; */
+  width: 100%;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.mcartoverlay-content p{
+  position: absolute;
+  top: 20%;
+  left: 15px;
+  padding-top: 10px;
+}
+
+.cart2 a{
+  position: absolute;
+  top: 35px;
+  left: 15px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.cart2 a:hover{
+  background-color: black;
+  color: white; 
+}
